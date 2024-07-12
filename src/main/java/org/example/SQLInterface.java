@@ -6,8 +6,8 @@ public class SQLInterface {
     public static Connection conn = null;
 
     private static String databaseName = "PrayForGospel_Database";
-    private static String username = "prayforgospel";
-    private static String password = "PrayForGospel2024@!@";
+    private static String username = "" //hidden;
+    private static String password = "" //hidden;
 
     public static void LoadDriver() {
         try {
